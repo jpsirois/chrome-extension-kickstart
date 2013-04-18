@@ -1,4 +1,4 @@
-# Chrome Web Store Kickstart
+# Chrome Extension Kickstart
 
 ## Installation
 
