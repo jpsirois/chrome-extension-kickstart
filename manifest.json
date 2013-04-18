@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "",
+  "description": "",
+  "version": "0.0.1",
+  "permissions": ["https://*.google.com/"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://*.google.com/*"],
+      "js": ["init.js"]
+    }
+  ],
+  "web_accessible_resources": ["included.js"]
+}
